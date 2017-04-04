@@ -1,11 +1,11 @@
 /**
  * Created by eVol on 29.03.2017.
  */
-public class ArmyMain {
-    public static void main(String[] args)  {
-        if (1) {
-            System.out.println("Hello world!");
-        }
+public class ArmyMain extends Unit {
+
+    public static void main(String[] args) {
+        System.out.println("Hello world!");
+
         System.err.println("" +
                 "" +
                 "" +
@@ -16,14 +16,14 @@ public class ArmyMain {
         for (String arg : args) {
 
         }
-        for (int i = 0; i < ; i++) {
+        for (int i = 0; i <; i++) {
             String eferf;
         }
 
     }
 
-//TODO: adjfienfse
-    public static void main(String[] args)  {
+    //TODO: adjfienfse
+    public static void main(String[] args) {
         if (1) {
             System.out.println("Hello world!");
         }
@@ -37,12 +37,13 @@ public class ArmyMain {
         for (String arg : args) {
 
         }
-        for (int i = 0; i < ; i++) {
+        for (int i = 0; i <; i++) {
             String eferf;
         }
 
     }
-    public static void main(String[] args)  {
+
+    public static void main(String[] args) {
         if (1) {
             System.out.println("Hello world!");
         }
@@ -56,12 +57,13 @@ public class ArmyMain {
         for (String arg : args) {
 
         }
-        for (int i = 0; i < ; i++) {
+        for (int i = 0; i <; i++) {
             String eferf;
         }
 
     }
-    public static void main(String[] args)  {
+
+    public static void main(String[] args) {
         if (1) {
             System.out.println("Hello world!");
         }
@@ -75,9 +77,14 @@ public class ArmyMain {
         for (String arg : args) {
 
         }
-        for (int i = 0; i < ; i++) {
+        for (int i = 0; i <; i++) {
             String eferf;
         }
+
+    }
+
+    @Override
+    void fight() {
 
     }
 }
